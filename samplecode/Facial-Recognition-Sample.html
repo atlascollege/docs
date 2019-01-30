@@ -1,0 +1,965 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Facial Recognition Sample · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters-theme.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-copy/css/copy.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="How-it-works.md" />
+    
+    
+    <link rel="prev" href="通过VLC播放实时视频.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Overview.html">
+            
+                <a href="Overview.html">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Environment-Preparation.html">
+            
+                <a href="Environment-Preparation.html">
+            
+                    
+                    Environment Preparation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Pre-requisties.html">
+            
+                <a href="Pre-requisties.html">
+            
+                    
+                    Pre-requisties
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Pre-installation.html">
+            
+                <a href="Pre-installation.html">
+            
+                    
+                    Pre-installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Face-Detection-Sample.html">
+            
+                <a href="Face-Detection-Sample.html">
+            
+                    
+                    Face Detection Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="How-it-Works.html">
+            
+                <a href="How-it-Works.html">
+            
+                    
+                    How it Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Pre-requisties-0.html">
+            
+                <a href="Pre-requisties-0.html">
+            
+                    
+                    Pre-requisties
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="Obtain-the-source-code.md">
+            
+                <span>
+            
+                    
+                    Obtain the source code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="Enable-the-Web-Service-on-the-UI-Host.html">
+            
+                <a href="Enable-the-Web-Service-on-the-UI-Host.html">
+            
+                    
+                    Enable the Web Service on the UI Host
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Running-the-Sample.html">
+            
+                <a href="Running-the-Sample.html">
+            
+                    
+                    Running the Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="Import-and-configure-the-application.html">
+            
+                <a href="Import-and-configure-the-application.html">
+            
+                    
+                    Import and configure the application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="Compiling-and-Running.html">
+            
+                <a href="Compiling-and-Running.html">
+            
+                    
+                    Compiling and Running
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="Output-Description.html">
+            
+                <a href="Output-Description.html">
+            
+                    
+                    Output Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Using-this-Sample-with-yourself-Detection-Model.html">
+            
+                <a href="Using-this-Sample-with-yourself-Detection-Model.html">
+            
+                    
+                    Using this Sample with yourself Detection Model
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="Ascendcamera.html">
+            
+                <a href="Ascendcamera.html">
+            
+                    
+                    Ascendcamera
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="How-it-Works-1.html">
+            
+                <a href="How-it-Works-1.html">
+            
+                    
+                    How it Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="Obtain-the-source-code-2.html">
+            
+                <a href="Obtain-the-source-code-2.html">
+            
+                    
+                    Obtain the source code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Compiling-Ascendcamera.html">
+            
+                <a href="Compiling-Ascendcamera.html">
+            
+                    
+                    Compiling Ascendcamera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Running-Ascendcamera.html">
+            
+                <a href="Running-Ascendcamera.html">
+            
+                    
+                    Running Ascendcamera
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="媒体信息离线保存.html">
+            
+                <a href="媒体信息离线保存.html">
+            
+                    
+                    媒体信息离线保存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="媒体信息实时查看.html">
+            
+                <a href="媒体信息实时查看.html">
+            
+                    
+                    媒体信息实时查看
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.2.1" data-path="通过Presenter-Server播放实时视频.html">
+            
+                <a href="通过Presenter-Server播放实时视频.html">
+            
+                    
+                    通过Presenter Server播放实时视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2.2" data-path="通过VLC播放实时视频.html">
+            
+                <a href="通过VLC播放实时视频.html">
+            
+                    
+                    通过VLC播放实时视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="Facial-Recognition-Sample.html">
+            
+                <a href="Facial-Recognition-Sample.html">
+            
+                    
+                    Facial Recognition Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="How-it-works.md">
+            
+                <span>
+            
+                    
+                    How it works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Pre-requisties-3.html">
+            
+                <a href="Pre-requisties-3.html">
+            
+                    
+                    Pre-requisties
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="Obtain-the-source-code-4.html">
+            
+                <a href="Obtain-the-source-code-4.html">
+            
+                    
+                    Obtain the source code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="Enable-the-Web-Service-on-the-UI-Host-5.html">
+            
+                <a href="Enable-the-Web-Service-on-the-UI-Host-5.html">
+            
+                    
+                    Enable the Web Service on the UI Host
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Running-the-Sample-6.html">
+            
+                <a href="Running-the-Sample-6.html">
+            
+                    
+                    Running the Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="Import-and-configure-the-application-7.html">
+            
+                <a href="Import-and-configure-the-application-7.html">
+            
+                    
+                    Import and configure the application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="Compiling-and-Running-8.html">
+            
+                <a href="Compiling-and-Running-8.html">
+            
+                    
+                    Compiling and Running
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.3" data-path="Output-Description-9.html">
+            
+                <a href="Output-Description-9.html">
+            
+                    
+                    Output Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="Video-Analysis-Sample.html">
+            
+                <a href="Video-Analysis-Sample.html">
+            
+                    
+                    Video Analysis Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="How-it-works-10.html">
+            
+                <a href="How-it-works-10.html">
+            
+                    
+                    How it works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="Pre-requisties-11.html">
+            
+                <a href="Pre-requisties-11.html">
+            
+                    
+                    Pre-requisties
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="Obtain-the-Source-Code.html">
+            
+                <a href="Obtain-the-Source-Code.html">
+            
+                    
+                    Obtain the Source Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.2" data-path="Enable-the-Web-Service-on-the-UI-Host-12.html">
+            
+                <a href="Enable-the-Web-Service-on-the-UI-Host-12.html">
+            
+                    
+                    Enable the Web Service on the UI Host
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="Running-the-Sample-13.html">
+            
+                <a href="Running-the-Sample-13.html">
+            
+                    
+                    Running the Sample
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" data-path="Import-and-configure-the-application-14.html">
+            
+                <a href="Import-and-configure-the-application-14.html">
+            
+                    
+                    Import and configure the application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" data-path="Compiling-and-Running-15.html">
+            
+                <a href="Compiling-and-Running-15.html">
+            
+                    
+                    Compiling and Running
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.3" data-path="Output-Description-16.html">
+            
+                <a href="Output-Description-16.html">
+            
+                    
+                    Output Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Advanced.html">
+            
+                <a href="Advanced.html">
+            
+                    
+                    Advanced
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="Presenter.html">
+            
+                <a href="Presenter.html">
+            
+                    
+                    Presenter
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1.1" data-path="Presenter-Server.html">
+            
+                <a href="Presenter-Server.html">
+            
+                    
+                    Presenter Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.2" data-path="Presenter-Agent.html">
+            
+                <a href="Presenter-Agent.html">
+            
+                    
+                    Presenter Agent
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="EZDVPP.html">
+            
+                <a href="EZDVPP.html">
+            
+                    
+                    EZDVPP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="OSD.html">
+            
+                <a href="OSD.html">
+            
+                    
+                    OSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="免责声明.html">
+            
+                <a href="免责声明.html">
+            
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Facial Recognition Sample</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="facial-recognition-sample">Facial Recognition Sample<a id="ZH-CN_TOPIC_0151275830"></a></h1>
+<p>&#x672C;&#x7AE0;&#x8282;&#x4ECB;&#x7ECD;&#x5F00;&#x53D1;&#x8005;APP&#x4E2D;&#x7684;&#x4EBA;&#x8138;&#x8BC6;&#x522B;Application&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x3002;</p>
+<ul>
+<li><p><strong><a href="How-it-works.md">How it works</a></strong>  </p>
+</li>
+<li><p><strong><a href="Pre-requisties-3.html">Pre-requisties</a></strong>  </p>
+</li>
+<li><p><strong><a href="Running-the-Sample-6.html">Running the Sample</a></strong>  </p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="通过VLC播放实时视频.html" class="navigation navigation-prev " aria-label="Previous page: 通过VLC播放实时视频">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="How-it-works.md" class="navigation navigation-next " aria-label="Next page: How it works">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Facial Recognition Sample","level":"1.6","depth":1,"next":{"title":"How it works","level":"1.6.1","depth":2,"path":"How-it-works.md","ref":"How-it-works.md","articles":[]},"previous":{"title":"通过VLC播放实时视频","level":"1.5.4.2.2","depth":4,"path":"通过VLC播放实时视频.md","ref":"通过VLC播放实时视频.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"imgUrl":"","topnav":[]},"plugins":["expandable-chapters","copy"],"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"copy":{},"expandableChapters":{"cssFile":["expandable-chapters-theme.css"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"website.css"}},"file":{"path":"Facial-Recognition-Sample.md","mtime":"2019-01-28T12:41:47.424Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-28T12:41:50.415Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy/js/clipboard.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy/js/copy.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
